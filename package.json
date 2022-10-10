@@ -1,0 +1,43 @@
+{
+  "name": "booking",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.1.1",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.4.1",
+    "react-scripts": "4.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    
+    "overrides": {
+      "react-error-overlay": "6.0.9"
+    },
+    
+
+  "proxy": "http://localhost:8800/api/",
+  "devDependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.18.9"
+  }
+}
